@@ -1,0 +1,15 @@
+project_folder/
+│
+├── mnist_model/
+│     └── 1/
+│         ├── saved_model.pb
+│         └── variables/
+│
+├── pull.py
+└── digit_3_3.png
+
+
+
+model_name/
+   version_number/
+       saved_model files
