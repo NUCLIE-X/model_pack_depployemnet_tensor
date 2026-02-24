@@ -1,0 +1,9 @@
+docker run -p 8501:8501 ^
+--mount type=bind,source=%cd%/mnist_model,target=/models/mnist_model ^
+-e MODEL_NAME=mnist_model ^
+tensorflow/serving
+
+
+SavedModel loaded successfully
+
+
